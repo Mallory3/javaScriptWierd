@@ -14,7 +14,7 @@
 
 //The execution context is created in two phases creation (desribed above)  & hoisting (setup memory space for variables and functions before code is actually ran, so when code begins to run line by line, it can access them. However variable value assignments arent read until code is run line by line, so they are initially set to undefined whilw functions are saved in their entirity therefore execute a function with an assigned value lowest in cascade)
 
-//Hoisting: variables set up with the value undefined and functions are stored in their entirety in the memory. 
+//Hoisting 'put in memory': variables set up with the value undefined and functions are stored in their entirety in the memory. 
 
 //Undefined = a special value that means that the veriable has not been set yet
 //Error: Not Defined = variable was not defined and never put in memory at all
